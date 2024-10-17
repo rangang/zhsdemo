@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A sample Electron app with auto-update feature",
   "main": "main.js",
+  "author": {
+    "name": "rangang",
+    "email": "13452334233@163.com"
+  },
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
@@ -22,7 +26,8 @@
     },
     "linux": {
       "target": ["AppImage", "deb"], 
-      "category": "Utility"
+      "category": "Utility",
+      "maintainer": "rangang <13452334233@163.com>"
     },
     "win": {
       "target": "nsis",
